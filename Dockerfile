@@ -31,4 +31,4 @@ RUN chown hiroshi:hiroshi /app/data
 USER hiroshi
 
 ENTRYPOINT []
-CMD python main.py
+CMD bash run
